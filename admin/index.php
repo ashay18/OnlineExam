@@ -90,6 +90,13 @@ Step 2: IF POST array has some varibles then, perform authentication.
       <div class="page">
               <form id="indexform" action="index.php" method="post">
               <table cellpadding="30" cellspacing="10">
+                <tr>
+                  <td>Not Admin?</td>
+                  <td><div>
+        <a href="tc/index.php">TestConductor</a>
+        <a href="../index.php">User</a>
+      </div></td>
+                </tr>
               <tr>
                   <td>Admin Name</td>
                   <td><input type="text" name="name" value="" size="16" /></td>

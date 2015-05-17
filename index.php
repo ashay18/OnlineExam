@@ -107,9 +107,18 @@ Step 2: Display the Html page to receive Authentication Parameters(Name & Passwo
                     </ul>
 
       </div>
+
       <div class="page">
-              
+               <!--Adding few links-->
+      
               <table cellpadding="30" cellspacing="10">
+                <tr>
+                  <td>Not User?</td>
+                  <td><div>
+        <a href="tc/index.php">TestConductor</a>
+        <a href="admin/index.php">Admin</a>
+      </div></td>
+                </tr>
               <tr>
                   <td>User Name</td>
                   <td><input type="text" tabindex="1" name="name" value="" size="16" /></td>
